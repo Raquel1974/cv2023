@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: rgb(14, 197, 197);
+}
+h2 {
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  color: blue;
+}
+.imagen {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 50rem;
+  height: 10rem;
+  border: 0.2rem solid rgb(137, 20, 220);
+  border-radius: 100%;
+  overflow: hidden;
+}
+.encabezado {
+  display: flex;
+  flex-direction: column;
+}
+.nombre {
+  color: rgb(101, 43, 226);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  font-style: italic;
+  text-decoration: underline;
+  margin: 1rem 1rem 0 1rem;
+  text-shadow: 1px 1px 2px blueviolet;
+}
+.resumenProfesional {
+  margin: 1rem;
+  font-size: large;
+}
+.cuerpo {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+}
+.dap {
+  align-items: stretch;
+  margin: 1rem;
+  border: 1rem;
+  border-color: black;
+  border-right: 2px black;
+}
+.main1 {
+  margin: 1rem;
+  border: 2rem;
+  background-color: white;
+}
+.datos {
+  margin: 1rem;
+}
+.aptitudes {
+  margin: 1rem;
+}
+.proyectos {
+  margin: 1rem;
+}
+.historiaLaboral {
+  margin: 1rem;
+  margin-left: 2rem;
+}
+.formación {
+  margin: 1rem;
+  margin-left: 2rem;
+}
+.idiomas {
+  margin: 1rem;
+  margin-left: 2rem;
+}
+.otrosDatos {
+  margin: 1rem;
+  margin-left: 2rem;
+}
